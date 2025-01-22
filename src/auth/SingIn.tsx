@@ -2,7 +2,6 @@ import { Button, Container, Paper, TextField, Typography } from '@mui/material';
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../contexts/AuthContext';
-import { UserData } from '../utils/api';
 
 const SignIn: React.FC = () => {
   const [email, setEmail] = useState('');
