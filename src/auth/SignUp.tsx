@@ -17,7 +17,7 @@ const SignUp: React.FC = () => {
   };
 
   const handleSubmit = async () => {
-    const userData: UserData = { email, password };
+    // const userData: UserData = { email, password };
     // const response = await api.signUp(userData);
     setAuthToken(fake_response.data.token);
     localStorage.setItem('authToken', fake_response.data.token);

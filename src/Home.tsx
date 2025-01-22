@@ -2,9 +2,7 @@ import { Box, Container, Typography } from '@mui/material';
 import JobItem from './job/JobItem';
 import { JobData } from './utils/api';
 
-type Props = {};
-
-const Home = (props: Props) => {
+const Home = () => {
   // const [jobs, setJobs] = useState<JobData[]>([]);
 
   // Real API CALL
